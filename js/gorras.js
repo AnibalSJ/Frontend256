@@ -8,7 +8,7 @@ function mostrarProducto(){
         data.forEach(element => {
             card.innerHTML += `
             <div class="card" style="width: 18rem;">
-                <img src="" class="card-img-top" alt="${element.descripcion}">
+                <img src="${element.img}" class="card-img-top" alt="${element.descripcion}">
                 <div class="card-body">
                     <h5 class="card-title">${element.nombre}</h3>
                     <p class="card-text">$${element.precio}</p>
